@@ -9,27 +9,34 @@ header {
     justify-content: space-between;
     background-color: black; 
 }
-.logo {
+#allItemContainer {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#logo {
     font-size: 25px;
 }
-ul 
+.ul 
 {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-li {
+.li {
     float: left;
     
 }
-a {
+a{
+    cursor: pointer;
+}
+.a {
     display: block;
     color: rgb(252, 252, 252);
     padding: 14px 16px;
     text-decoration: none;
 }
 .middlediv {
-    padding-left: 200px;
+   
     padding-top: 200px;
     max-width: 400px;
 }
@@ -50,8 +57,9 @@ a {
     border-radius: 5px;
     outline: none;
 }
-.btn {
-  
+#prices:hover {
+    background-color: #343131;
+    
 }
 #prices {
    margin-right: 20px;
@@ -60,10 +68,247 @@ a {
    height: 30px;
    background-color: black;
    color: aliceblue;
+   cursor: pointer;
 }
 #scedule {
     margin-right: 20px;
     border-radius: 5px;
     width: auto;
     height: 30px;
+    cursor: pointer;
+}
+#scedule:hover {
+    background-color: #ffffff;
+    color: black;
+}   
+.middlePht {
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+.suggestionDiv {
+    position: absolute;
+    top: 780px;
+    right: 200px;
+    left: 200px;
+}
+#suggestionTxt {
+    font-weight: bold;
+    font-size: 40px;
+}
+.card {
+    background-color: #f3f3f3;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    max-width: 350px;
+    border-radius: 6px;
+    display: flex;
+    width: 345px;
+    cursor: pointer;
+}
+.cardPara {
+    max-width: 180px;
+    font-size: 13px;
+}
+.cardHeadingTxt {
+    font-size: 16px;
+    font-weight: bold;
+}
+.cardBtn {
+    border-radius: 20px;
+    border-color:transparent ;
+    size: 10px;
+    font-weight: bold;
+    padding: 7px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.cardBtn:hover {
+    background-color: #dddddd;
+}
+.cardImg {
+    width: 140px;
+    height: 110px;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.paraCardsImgs {
+    display: flex;
+    justify-content: space-between;
+}
+#paraCards {
+    margin-top: 650px;
+
+}
+.paraCardsImg {
+    width: 345px;
+    height: 200px;
+}
+#paraCardsHeading {
+    display: flex;
+    justify-content: space-between;
+}
+.paraCardsPara {
+    max-width: 345px;
+}
+.paraCardsHeading {
+    font-size: 20px;
+    font-weight: bold;
+}
+.paraATag {
+    color: rgb(20, 20, 20);
+    text-decoration: underline;
+    padding: 0;
+}
+.paraCardsLink {
+    margin-left: 0px;
+}
+#paraCards {
+    display: flex;
+    justify-content: space-between;
+}
+#blackBannerDiv {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 460px;
+}
+#bannerTxtDiv {
+    margin-left: 180px;
+    padding: 0;
+    margin-top: 40px;
+}
+#bannerTxt1 {
+    font-size: 36px;
+    font-weight: bold;
+    width: 415px;
+}
+.bannerTxt2 {
+    width: 415px;
+    font-size: 18px;
+}
+#bannerBtn {
+    border-radius: 5px;
+    border-color:transparent ;
+    size: 10px;
+    font-weight: bold;
+    padding: 7px;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    width: 130px;
+    font-weight: lighter;
+    margin-top: 15px;
+    height: 45px;
+}
+#bannerBtn:hover {
+    background-color: #dddddd;
+}
+#bannerImgDiv {
+   margin-right: 180px;
+   margin-top: 40px;
+}
+#friendsBannerDiv {
+    display: flex;
+    justify-content: space-between;
+}
+#friendsBannerTxtDiv {
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 80px;
+}
+#friendsBannerTxtHeading {
+    font-size: 36px;
+    font-weight: bold;
+    width: 415px;
+}
+#friendsBannerTxtPara {
+    
+    font-size: 18px;
+}
+#friendsBannerTxtLink {
+    color: rgb(20, 20, 20);
+    text-decoration: underline;
+    font-size: 18px;
+    padding: 0;
+    margin-top: 45px;
+}
+.optionCardHeading {
+    font-size: 20px;
+    font-weight: light;
+}
+.optionCardPara {
+    font-size: 18px;
+    font-weight: lighter;
+    width: 340px;
+}
+.optionCardsImgs {
+    width: 340px;
+}
+.optionCardBtn {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+}
+.optionCardBtn:hover {
+    background-color: #343131;
+}
+#optionCards {
+    display: flex;
+    justify-content: space-between;
+}
+#blackBannerDiv2 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    height: 450px;
+}
+#bannerTxtDiv1 {
+    margin-left: 200px;
+   
+}
+#bannerBtn2 {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    height: 40px;
+    border-color: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#bannerBtn2:hover {
+    background-color: #dddddd;
+}
+.faqQusestion {
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 18px;
+      font-weight: lighter;
+      cursor: pointer;
+      border-bottom: 1px solid #c7c4c4;
+}
+.faqQusestion:hover {
+   background-color:#dddddd;
 }
